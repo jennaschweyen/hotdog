@@ -40,12 +40,12 @@ elif page == 'Hotdog prediction':
     # hotdog_pred = model.predict([uploaded_photo])[0]
 
     # Create button
-    if st.button('Submit'):
-        if len(uploaded_photo) ==1:
+    # if st.button('Submit'):
+    #     if len(uploaded_photo) ==1:
 
-            if hotdog_pred == 'hotdog':
-                st.write('This is a hotdog!')
-                st.balloons()
+    #         if hotdog_pred == 'hotdog':
+    #             st.write('This is a hotdog!')
+    #             st.balloons()
 
-            else:
-                st.write('This is NOT a hotdog! :-1:')
+    #         else:
+    #             st.write('This is NOT a hotdog! :-1:')
