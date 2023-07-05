@@ -20,7 +20,7 @@ page = st.sidebar.selectbox(
 if page == 'About':
     st.subheader('About this project')
     st.write('''
-This Streamlit app hosts my Hotdog model.
+This Streamlit app hosts our Hotdog model.
 We used a convolutional neural network to decipher between 
 images of hotdogs and non-hotdogs.
     ''')
