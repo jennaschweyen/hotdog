@@ -39,7 +39,7 @@ elif page == 'Hotdog prediction':
     # hotdog_pred = model.predict([uploaded_photo])[0]
 
     # Create button
-    # if st.button('Submit'):
+    if st.button('Submit'):
     #     if len(uploaded_photo) ==1:
 
     #         if hotdog_pred == 'hotdog':
