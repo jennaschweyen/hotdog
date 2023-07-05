@@ -40,11 +40,10 @@ elif page == 'Hotdog prediction':
 
     # Create button
     if st.button('Submit'):
-    #     if len(uploaded_photo) ==1:
 
     #         if hotdog_pred == 'hotdog':
     #             st.write('This is a hotdog!')
-    #             st.balloons()
+                 st.balloons()
 
     #         else:
     #             st.write('This is NOT a hotdog! :-1:')
